@@ -1,14 +1,16 @@
-<svg viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
-  <!-- Outer Hexagon Frame -->
-  <path d="M50 8L87 29V71L50 92L13 71V29L50 8Z" stroke="#FFB300" stroke-width="6" stroke-linejoin="round"/>
-  
-  <!-- Stylized "V" for Vision/Viz -->
-  <path d="M30 40L50 70L70 40" stroke="#FFB300" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
-  
-  <!-- Stylized "S" for Stash (abstracted as a data-stack/folder line) -->
-  <path d="M40 25H60" stroke="#FFB300" stroke-width="4" stroke-linecap="round"/>
-  <path d="M45 18H55" stroke="#FFB300" stroke-width="2" stroke-linecap="round" opacity="0.6"/>
-  
-  <!-- Central Focus Node (The "Capture" point) -->
-  <circle cx="50" cy="50" r="4" fill="#FFB300"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#FF8A3D"/>
+      <stop offset="1" stop-color="#F0344F"/>
+    </linearGradient>
+  </defs>
+  <rect width="1024" height="1024" rx="230" fill="url(#bg)"/>
+  <g transform="translate(512 512) scale(1.32) translate(-536 -516)">
+    <rect x="300" y="250" width="340" height="430" rx="56" fill="#FFFFFF" opacity="0.55" transform="rotate(-12 470 465)"/>
+    <rect x="384" y="314" width="340" height="430" rx="56" fill="#FFFFFF" transform="rotate(6 554 529)"/>
+    <rect x="420" y="352" width="268" height="200" rx="34" fill="#FFE3D6" transform="rotate(6 554 529)"/>
+    <circle cx="690" cy="690" r="112" fill="#1C1917"/>
+    <path d="M637 692 L676 731 L746 653" fill="none" stroke="#FFFFFF" stroke-width="34" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
 </svg>
